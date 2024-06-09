@@ -1,0 +1,50 @@
+### User Registration
+POST http://localhost:8081/api/account/register
+Content-Type: application/json
+
+{
+  "userId": "john2",
+  "userName": "John",
+  "userEmail": "john2@example.com",
+  "userPassword": "123456"
+}
+
+### User Authentication
+POST http://localhost:8081/api/account/authenticate
+Content-Type: application/x-www-form-urlencoded
+
+userId=1&password=$2a$10$kmjyKANjvCHFd8ccdPL4NO6rRwK9Qak5wUg/o0uz8lppti0rmXCtG
+
+### User Authentication
+POST http://localhost:8081/api/account/authenticate?userId=1&password=$2a$10$kmjyKANjvCHFd8ccdPL4NO6rRwK9Qak5wUg/o0uz8lppti0rmXCtG
+
+
+### Get User by ID
+GET http://localhost:8081/api/account/test1
+
+### Get User by Email
+GET http://localhost:8081/api/account/email?email=john1@example.com
+
+### Get Users by Name
+GET http://localhost:8081/api/account/name?name=John
+
+### Get All Users
+GET http://localhost:8081/api/account/all
+
+### Update User
+PUT http://localhost:8081/api/account/아이디
+Content-Type: application/json
+
+{
+  "userId": "john_doe_1",
+  "userName": "John Doe Updated",
+  "userEmail": "john.doe_1_updated@example.com",
+  "userPassword": "newpassword123",
+  "userStatus": "ACTIVE"
+}
+
+### Delete User (Logical Deletion)
+DELETE http://localhost:8081/api/account/john1
+
+### Delete User (Permanent Deletion)
+DELETE http://localhost:8081/api/account/permanent/admin
