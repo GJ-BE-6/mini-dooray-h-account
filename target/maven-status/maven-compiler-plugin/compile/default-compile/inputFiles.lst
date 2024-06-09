@@ -1,7 +1,10 @@
-/Users/khj/Desktop/4주차과제/account_api/src/main/java/com/nhnacademy/account_api/AccountApiApplication.java
-/Users/khj/Desktop/4주차과제/account_api/src/main/java/com/nhnacademy/account_api/config/SwaggerConfig.java
-/Users/khj/Desktop/4주차과제/account_api/src/main/java/com/nhnacademy/account_api/domain/controller/GlobalExceptionHandler.java
-/Users/khj/Desktop/4주차과제/account_api/src/main/java/com/nhnacademy/account_api/domain/controller/UsersController.java
-/Users/khj/Desktop/4주차과제/account_api/src/main/java/com/nhnacademy/account_api/domain/entity/Users.java
-/Users/khj/Desktop/4주차과제/account_api/src/main/java/com/nhnacademy/account_api/domain/repository/UsersRepository.java
-/Users/khj/Desktop/4주차과제/account_api/src/main/java/com/nhnacademy/account_api/domain/service/UsersService.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/AccountApiApplication.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/config/SchedulerConfig.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/config/SwaggerConfig.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/controller/GlobalExceptionHandler.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/controller/UserController.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/domain/entity/User.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/domain/entity/UserStatus.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/repository/UserRepository.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/scheduler/DormantUserScheduler.java
+/Users/khj/Desktop/4주차과제/git_account/src/main/java/com/nhnacademy/account_api/service/UserService.java

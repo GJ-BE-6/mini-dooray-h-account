@@ -1,7 +1,10 @@
-com/nhnacademy/account_api/domain/controller/GlobalExceptionHandler.class
+com/nhnacademy/account_api/scheduler/DormantUserScheduler.class
+com/nhnacademy/account_api/domain/entity/UserStatus.class
+com/nhnacademy/account_api/controller/UserController.class
+com/nhnacademy/account_api/domain/entity/User.class
 com/nhnacademy/account_api/AccountApiApplication.class
-com/nhnacademy/account_api/domain/controller/UsersController.class
-com/nhnacademy/account_api/domain/entity/Users.class
-com/nhnacademy/account_api/domain/service/UsersService.class
+com/nhnacademy/account_api/config/SchedulerConfig.class
+com/nhnacademy/account_api/repository/UserRepository.class
 com/nhnacademy/account_api/config/SwaggerConfig.class
-com/nhnacademy/account_api/domain/repository/UsersRepository.class
+com/nhnacademy/account_api/controller/GlobalExceptionHandler.class
+com/nhnacademy/account_api/service/UserService.class

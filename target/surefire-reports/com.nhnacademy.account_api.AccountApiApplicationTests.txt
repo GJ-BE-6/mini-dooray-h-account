@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.nhnacademy.account_api.AccountApiApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.580 s -- in com.nhnacademy.account_api.AccountApiApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.215 s -- in com.nhnacademy.account_api.AccountApiApplicationTests
